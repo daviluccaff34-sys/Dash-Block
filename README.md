@@ -1,33 +1,20 @@
-# Dash Block
+# Dash-Block
 
-Primeira versão jogável de um jogo de plataforma 2D para Android.
+Jogo 2D de plataforma/ritmo feito em Godot 4.4.1, com foco em Android.
 
-## Versão 0.1.0
+## Primeiro protótipo
+- Tela horizontal com visual escuro e grade.
+- Quadrado amarelo controlado por toque.
+- Obstáculos rosas, colisão, pontuação e reinício.
+- Música CrushTekk.mp3 em loop durante a partida.
+- Exportação Android APK pelo GitHub Actions.
 
-- Jogo em modo paisagem.
+## Como jogar
 - Toque na tela para começar e pular.
-- Desvie dos obstáculos.
-- Pontuação e recorde durante a sessão.
-- Colisão e reinício por toque.
-- Trilha sonora `CrushTekk.mp3` em loop.
-- Projeto Android nativo leve, sem engine externa.
+- Também é possível usar Espaço ou Seta para cima no computador.
+- Ao perder, toque novamente para reiniciar.
 
-## Gerar o APK
+## APK
+Abra a aba Actions, selecione Build Dash-Block Android APK e baixe o artefato Dash-Block-Android-APK quando a execução terminar com sucesso.
 
-O GitHub Actions compila automaticamente quando há alterações na branch `main`.
-
-1. Abra a aba **Actions** do repositório.
-2. Selecione **Build Dash Block APK**.
-3. Abra uma execução concluída.
-4. Em **Artifacts**, baixe `Dash-Block-Android-APK`.
-5. Extraia o ZIP para encontrar `app-debug.apk`.
-
-Também é possível iniciar uma compilação manual pelo botão **Run workflow**.
-
-## Controles
-
-- Toque: começar.
-- Toque no ar/chão: pular (o pulo só acontece quando o personagem está no chão).
-- Colidiu: toque para reiniciar.
-
-A pasta `assets/music/` guarda a música usada pelo jogo.
+Editor de fases e fases online da comunidade serão desenvolvidos em etapas futuras.
